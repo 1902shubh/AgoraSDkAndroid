@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "in.papayacoders.agora"
-        minSdk 21
+        minSdk 24
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -47,5 +47,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
     implementation 'io.agora.rtc:full-sdk:4.0.1'
-
+//    implementation 'com.github.AgoraIO-Community.VideoUIKit-Android:final:v4.0.1'
+//    implementation 'com.github.AgoraIO-Community:Android-UIKit:v2.0.0'
+//    implementation 'com.github.AgoraIO-Community:VideoUIKit-Android:v4.0.1'
+    implementation("commons-codec:commons-codec:1.9")
 }
